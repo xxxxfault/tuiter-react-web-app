@@ -1,7 +1,7 @@
 /* eslint-env jquery */
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import PostSummaryList from "../PostSummaryList";
-import PostList from "../PostList";
+import PostSummaryList from "../PostSummaryList/index.js";
+import PostList from "../PostList/index.js";
 function homeComponent() {
     $('#wd-home').append(`
        <div class="row mt-2">
