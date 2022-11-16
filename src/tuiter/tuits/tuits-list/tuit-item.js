@@ -57,7 +57,7 @@ const TuitItem = (
                             Unlikes: {item.unlikes}
                             <i onClick={() => dispatch(updateTuitThunk({
                                 ...item,
-                                unlikes: item.unlikes - 1
+                                unlikes: item.unlikes + 1
                             }))}
                             class="bi bi-hand-thumbs-down"></i>
                         </div>
