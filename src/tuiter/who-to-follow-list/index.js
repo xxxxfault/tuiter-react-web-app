@@ -10,7 +10,7 @@ const WhoToFollowList = () => {
         <ul className="list-group">
             {
                 whoArray.map(who =>
-                    <WhoToFollowListItem who={who}/>)
+                    <WhoToFollowListItem who={who}  key={who._id}/>)
             }
         </ul>
     );
